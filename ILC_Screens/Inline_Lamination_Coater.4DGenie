@@ -1,0 +1,1681 @@
+﻿Version     0.0
+Platform    Gen4-uLCD-70DCT-CLB-L
+PlatRes     480x800
+Depends
+end
+Options
+    Genie
+    Speed                        115200
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    DestBank                     0
+    MainForm                     2
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 No
+    MaxString                    75
+    ComPort                      0
+    ComTX1pinIdx                 0
+    ComRX1pinIdx                 0
+    FileSystem                   FATfs
+    FlashEraseOption             Optimal
+    SPIenable                    0
+    SPIsdo                       3
+    SPIsdi                       2
+    SPIsck                       1
+    ForceProgramFlash            No
+    PixxiuSDSpeed                0
+    FlashForceLT16MB             No
+end
+Form
+    Name                         Form0
+    Alias                        Form0
+    Bgtype                       Color
+    Color                        0x9E9E9E
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image4
+    Alias                        Image4
+    Height                       140
+    Image                        'Untitled design-removebg-preview.jpg'
+    Left                         210
+    Source.Height                640
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 390
+    Top                          20
+    Width                        100
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image0
+    Alias                        Image0
+    Height                       140
+    Image                        'Untitled design-removebg-preview.jpg'
+    Left                         605
+    Source.Height                640
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 390
+    Top                          20
+    Width                        100
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image1
+    Alias                        Image1
+    Height                       140
+    Image                        'Untitled design1-removebg-preview.jpg'
+    Left                         210
+    Source.Height                640
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 390
+    Top                          320
+    Width                        100
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image3
+    Alias                        Image3
+    Height                       140
+    Image                        'Untitled design1-removebg-preview.jpg'
+    Left                         605
+    Source.Height                640
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 390
+    Top                          320
+    Width                        100
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserLed
+    Name                         Userled0
+    Alias                        Userled0
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         210
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              BLUE
+    PaletteEx.High2              clAqua
+    PaletteEx.Low1               GRAY
+    PaletteEx.Low2               BLACK
+    Top                          0
+    Width                        40
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled1
+    Alias                        Userled1
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         407
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              BLUE
+    PaletteEx.High2              clAqua
+    PaletteEx.Low1               GRAY
+    PaletteEx.Low2               BLACK
+    Top                          460
+    Width                        40
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled2
+    Alias                        Userled2
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         605
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              BLUE
+    PaletteEx.High2              clAqua
+    PaletteEx.Low1               GRAY
+    PaletteEx.Low2               BLACK
+    Top                          0
+    Width                        40
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled3
+    Alias                        Userled3
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         210
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              BLUE
+    PaletteEx.High2              clAqua
+    PaletteEx.Low1               GRAY
+    PaletteEx.Low2               BLACK
+    Top                          460
+    Width                        40
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled4
+    Alias                        Userled4
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         605
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              BLUE
+    PaletteEx.High2              clAqua
+    PaletteEx.Low1               GRAY
+    PaletteEx.Low2               BLACK
+    Top                          460
+    Width                        40
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled5
+    Alias                        Userled5
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         270
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clLime
+    PaletteEx.High2              GREEN
+    PaletteEx.Low1               clRed
+    PaletteEx.Low2               MAROON
+    Top                          0
+    Width                        40
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled6
+    Alias                        Userled6
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         467
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clLime
+    PaletteEx.High2              GREEN
+    PaletteEx.Low1               clRed
+    PaletteEx.Low2               MAROON
+    Top                          460
+    Width                        40
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled7
+    Alias                        Userled7
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         665
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clLime
+    PaletteEx.High2              GREEN
+    PaletteEx.Low1               clRed
+    PaletteEx.Low2               MAROON
+    Top                          0
+    Width                        40
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled8
+    Alias                        Userled8
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         270
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clLime
+    PaletteEx.High2              GREEN
+    PaletteEx.Low1               clRed
+    PaletteEx.Low2               MAROON
+    Top                          460
+    Width                        40
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled9
+    Alias                        Userled9
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         665
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clLime
+    PaletteEx.High2              GREEN
+    PaletteEx.Low1               clRed
+    PaletteEx.Low2               MAROON
+    Top                          460
+    Width                        40
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages0
+    Alias                        Userimages0
+    Height                       50
+    Images                       'Screenshot 2024-08-28 114147.png\nspray.png'
+    Left                         232
+    Stretch                      Yes
+    Top                          160
+    Width                        50
+    OnChanged                    'Report Message'
+end
+UserImages
+    Name                         Userimages2
+    Alias                        Userimages2
+    Height                       50
+    Images                       'Screenshot 2024-08-28 114147.png\nspray.png'
+    Left                         627
+    Stretch                      Yes
+    Top                          160
+    Width                        50
+    OnChanged                    'Report Message'
+end
+UserImages
+    Name                         Userimages3
+    Alias                        Userimages3
+    Height                       50
+    Images                       'Screenshot 2024-08-28 114147.png\nspray - Copy.png'
+    Left                         236
+    Stretch                      Yes
+    Top                          270
+    Width                        50
+    OnChanged                    'Report Message'
+end
+UserImages
+    Name                         Userimages4
+    Alias                        Userimages4
+    Height                       50
+    Images                       'Screenshot 2024-08-28 114147.png\nspray - Copy.png'
+    Left                         631
+    Stretch                      Yes
+    Top                          270
+    Width                        50
+    OnChanged                    'Report Message'
+end
+Image
+    Name                         Image6
+    Alias                        Image6
+    Height                       80
+    Image                        insf-removebg-preview.jpg
+    Left                         110
+    Source.Height                532
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 469
+    Top                          130
+    Width                        80
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+4Dbutton
+    Name                         4Dbutton0
+    Alias                        4Dbutton0
+    Height                       64
+    Left                         10
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         64x64
+    Style                        Red
+    Top                          398
+    Type                         Button01
+    Width                        64
+    OnChanged                    Form1Activate
+end
+StaticText
+    Name                         Statictext0
+    Alias                        Statictext0
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Profile
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    11
+    Font.Style                   []
+    Height                       17
+    Left                         18
+    Top                          463
+    Transparent                  Yes
+    Width                        48
+    WordWrap                     Yes
+end
+Image
+    Name                         Image8
+    Alias                        Image8
+    Height                       150
+    Image                        s-l400-removebg-preview.jpg
+    Left                         20
+    Source.Height                500
+    Source.Left                  185
+    Source.Top                   0
+    Source.Width                 128
+    Top                          20
+    Width                        40
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserLed
+    Name                         Userled10
+    Alias                        Userled10
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         20
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clLime
+    PaletteEx.High2              GREEN
+    PaletteEx.Low1               clRed
+    PaletteEx.Low2               MAROON
+    Top                          0
+    Width                        40
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled11
+    Alias                        Userled11
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         130
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clLime
+    PaletteEx.High2              GREEN
+    PaletteEx.Low1               clRed
+    PaletteEx.Low2               MAROON
+    Top                          105
+    Width                        40
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages5
+    Alias                        Userimages5
+    Height                       40
+    Images                       'Screenshot 2024-08-28 114147.png\npointer-removebg-preview.jpg'
+    Left                         20
+    Stretch                      Yes
+    Top                          170
+    Width                        40
+    OnChanged                    'Report Message'
+end
+UserImages
+    Name                         Userimages6
+    Alias                        Userimages6
+    Height                       60
+    Images                       'Screenshot 2024-08-28 114147.png\nImage (21).jpg'
+    Left                         0
+    Stretch                      Yes
+    Top                          210
+    Width                        800
+    OnChanged                    'Report Message'
+end
+Rectangle
+    Name                         Rectangle0
+    Alias                        Rectangle0
+    Color                        NAVY
+    Filled                       Yes
+    Height                       210
+    Left                         195
+    Outlined                     No
+    OutlineColor                 WHITE
+    Pattern                      Fine
+    Top                          0
+    Width                        10
+end
+Rectangle
+    Name                         Rectangle1
+    Alias                        Rectangle1
+    Color                        NAVY
+    Filled                       Yes
+    Height                       210
+    Left                         195
+    Outlined                     No
+    OutlineColor                 WHITE
+    Pattern                      Fine
+    Top                          270
+    Width                        10
+end
+Rectangle
+    Name                         Rectangle2
+    Alias                        Rectangle2
+    Color                        NAVY
+    Filled                       Yes
+    Height                       210
+    Left                         710
+    Outlined                     No
+    OutlineColor                 WHITE
+    Pattern                      Fine
+    Top                          270
+    Width                        10
+end
+Rectangle
+    Name                         Rectangle3
+    Alias                        Rectangle3
+    Color                        NAVY
+    Filled                       Yes
+    Height                       210
+    Left                         710
+    Outlined                     No
+    OutlineColor                 WHITE
+    Pattern                      Fine
+    Top                          0
+    Width                        10
+end
+UserLed
+    Name                         Userled12
+    Alias                        Userled12
+    Active                       No
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             0x9E9E9E
+    Bevel.InnerHighlight         0x9E9E9E
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x9E9E9E
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         0x9E9E9E
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         740
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clLime
+    PaletteEx.High2              GREEN
+    PaletteEx.Low1               clRed
+    PaletteEx.Low2               MAROON
+    Top                          0
+    Width                        40
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages7
+    Alias                        Userimages7
+    Height                       40
+    Images                       'Screenshot 2024-08-28 114147.png\npointer-removebg-preview.jpg'
+    Left                         740
+    Stretch                      Yes
+    Top                          170
+    Width                        40
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext14
+    Alias                        Statictext14
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      INFEED
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       18
+    Left                         65
+    Top                          275
+    Transparent                  Yes
+    Width                        65
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext15
+    Alias                        Statictext15
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'Material Level'
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    11
+    Font.Style                   []
+    Height                       34
+    Left                         720
+    Top                          270
+    Transparent                  Yes
+    Width                        80
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext9
+    Alias                        Statictext9
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      1
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    15
+    Font.Style                   []
+    Height                       20
+    Left                         250
+    Top                          0
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext10
+    Alias                        Statictext10
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      2
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    15
+    Font.Style                   []
+    Height                       20
+    Left                         447
+    Top                          460
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext11
+    Alias                        Statictext11
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      3
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    15
+    Font.Style                   []
+    Height                       20
+    Left                         645
+    Top                          0
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext12
+    Alias                        Statictext12
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      4
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    15
+    Font.Style                   []
+    Height                       20
+    Left                         250
+    Top                          460
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     No
+end
+StaticText
+    Name                         Statictext13
+    Alias                        Statictext13
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      5
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    15
+    Font.Style                   []
+    Height                       20
+    Left                         645
+    Top                          460
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     No
+end
+Image
+    Name                         Image11
+    Alias                        Image11
+    Height                       150
+    Image                        s-l400-removebg-preview.jpg
+    Left                         740
+    Source.Height                500
+    Source.Left                  185
+    Source.Top                   0
+    Source.Width                 128
+    Top                          20
+    Width                        40
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image12
+    Alias                        Image12
+    Height                       140
+    Image                        'Untitled design1-removebg-preview.jpg'
+    Left                         407
+    Source.Height                640
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 390
+    Top                          320
+    Width                        100
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserImages
+    Name                         Userimages1
+    Alias                        Userimages1
+    Height                       50
+    Images                       'Screenshot 2024-08-28 114147.png\nspray - Copy.png'
+    Left                         433
+    Stretch                      Yes
+    Top                          270
+    Width                        50
+    OnChanged                    'Report Message'
+end
+Image
+    Name                         Image2
+    Alias                        Image2
+    Height                       70
+    Image                        compass-removebg-preview1.jpg
+    Left                         115
+    Source.Height                500
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 500
+    Top                          0
+    Width                        70
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings0
+    Alias                        Strings0
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       40
+    FGcolor                      clRed
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Opaque                  No
+    Font.Size                    -14
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         315
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          0
+    Width                        285
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton7
+    Alias                        4Dbutton7
+    Height                       64
+    Left                         10
+    Matrix                       -1
+    Momentary                    No
+    Size                         64x64
+    Style                        Blue
+    Top                          313
+    Type                         Button01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton8
+    Alias                        4Dbutton8
+    Height                       64
+    Left                         121
+    Matrix                       -1
+    Momentary                    No
+    Size                         64x64
+    Style                        Green
+    Top                          313
+    Type                         Button01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton9
+    Alias                        4Dbutton9
+    Height                       64
+    Left                         121
+    Matrix                       -1
+    Momentary                    No
+    Size                         64x64
+    Style                        Red
+    Top                          398
+    Type                         Button01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext16
+    Alias                        Statictext16
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      STBY
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       18
+    Left                         132
+    Top                          462
+    Transparent                  Yes
+    Width                        43
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext17
+    Alias                        Statictext17
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      AUTO
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       18
+    Left                         130
+    Top                          378
+    Transparent                  Yes
+    Width                        47
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext18
+    Alias                        Statictext18
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      HAND
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       18
+    Left                         18
+    Top                          378
+    Transparent                  Yes
+    Width                        48
+    WordWrap                     Yes
+end
+4Dbutton
+    Name                         4Dbutton10
+    Alias                        4Dbutton10
+    Height                       48
+    Left                         310
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Green
+    Top                          66
+    Type                         Slider01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton11
+    Alias                        4Dbutton11
+    Height                       48
+    Left                         433
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Green
+    Top                          66
+    Type                         Slider01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton12
+    Alias                        4Dbutton12
+    Height                       48
+    Left                         557
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Green
+    Top                          66
+    Type                         Slider01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton13
+    Alias                        4Dbutton13
+    Height                       48
+    Left                         310
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Green
+    Top                          366
+    Type                         Slider01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton14
+    Alias                        4Dbutton14
+    Height                       48
+    Left                         557
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Green
+    Top                          366
+    Type                         Slider01
+    Width                        48
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext19
+    Alias                        Statictext19
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Sqft
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       20
+    Left                         310
+    Top                          114
+    Transparent                  Yes
+    Width                        90
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext20
+    Alias                        Statictext20
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'Wet Mills'
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       20
+    Left                         515
+    Top                          114
+    Transparent                  Yes
+    Width                        90
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext21
+    Alias                        Statictext21
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'Flow Rate (l/min)'
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       44
+    Left                         412
+    Top                          114
+    Transparent                  Yes
+    Width                        90
+    WordWrap                     Yes
+end
+LedDigits
+    Name                         Leddigits0
+    Alias                        Leddigits0
+    Color                        0x9E9E9E
+    Decimals                     0
+    Digits                       3
+    Height                       40
+    LeadingZero                  No
+    Left                         310
+    OutlineColor                 0x9E9E9E
+    Palette.High                 clBlue
+    Palette.Low                  0x9E9E9E
+    Top                          165
+    Width                        90
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits1
+    Alias                        Leddigits1
+    Color                        0x9E9E9E
+    Decimals                     1
+    Digits                       3
+    Height                       40
+    LeadingZero                  No
+    Left                         412
+    OutlineColor                 0x9E9E9E
+    Palette.High                 clBlue
+    Palette.Low                  0x9E9E9E
+    Top                          165
+    Width                        90
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits2
+    Alias                        Leddigits2
+    Color                        0x9E9E9E
+    Decimals                     1
+    Digits                       3
+    Height                       40
+    LeadingZero                  No
+    Left                         515
+    OutlineColor                 0x9E9E9E
+    Palette.High                 clBlue
+    Palette.Low                  0x9E9E9E
+    Top                          165
+    Width                        90
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Gauge
+    Name                         Gauge0
+    Alias                        Gauge0
+    Bevel.BorderColor            0x9E9E9E
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             0x9E9E9E
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            0x9E9E9E
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Color                        BLACK
+    Height                       170
+    Left                         722
+    Maxvalue                     100
+    Minvalue                     0
+    Orientation                  Vertical
+    Palette1.High                clLime
+    Palette1.Low                 0x005100
+    Palette2.High                clYellow
+    Palette2.Low                 0x005151
+    Palette3.High                clRed
+    Palette3.Low                 0x000051
+    Percent1                     60
+    Percent2                     30
+    Spacing                      1
+    Step                         10
+    Style                        TopRight
+    TickHeight                   1
+    Top                          310
+    Width                        40
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext22
+    Alias                        Statictext22
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      10%
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       15
+    Left                         762
+    Top                          452
+    Transparent                  Yes
+    Width                        38
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext23
+    Alias                        Statictext23
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      40%
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       15
+    Left                         762
+    Top                          400
+    Transparent                  Yes
+    Width                        38
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext24
+    Alias                        Statictext24
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      100%
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    10
+    Font.Style                   []
+    Height                       15
+    Left                         762
+    Top                          310
+    Transparent                  Yes
+    Width                        38
+    WordWrap                     Yes
+end
+Form
+    Name                         Form1
+    Alias                        Form1
+    Bgtype                       Color
+    Color                        0x9E9E9E
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image7
+    Alias                        Image7
+    Height                       300
+    Image                        'Part Studio 2 (3)-removebg-preview.jpg'
+    Left                         203
+    Source.Height                568
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 439
+    Top                          91
+    Width                        200
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image9
+    Alias                        Image9
+    Height                       300
+    Image                        'Part Studio 3 (4)-removebg-preview.jpg'
+    Left                         406
+    Source.Height                568
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 439
+    Top                          91
+    Width                        200
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image10
+    Alias                        Image10
+    Height                       300
+    Image                        'Part Studio 4 (1)-removebg-preview.jpg'
+    Left                         610
+    Source.Height                568
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 439
+    Top                          91
+    Width                        200
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext1
+    Alias                        Statictext1
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'Accoustic Edge'
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       25
+    Left                         20
+    Top                          391
+    Transparent                  Yes
+    Width                        160
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext2
+    Alias                        Statictext2
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'Chamfered Edge'
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       25
+    Left                         223
+    Top                          391
+    Transparent                  Yes
+    Width                        160
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext3
+    Alias                        Statictext3
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'Eased Edge'
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       25
+    Left                         426
+    Top                          391
+    Transparent                  Yes
+    Width                        160
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext4
+    Alias                        Statictext4
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'Kerf Edge'
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    14
+    Font.Style                   []
+    Height                       25
+    Left                         630
+    Top                          391
+    Transparent                  Yes
+    Width                        160
+    WordWrap                     Yes
+end
+4Dbutton
+    Name                         4Dbutton1
+    Alias                        4Dbutton1
+    Height                       64
+    Left                         68
+    Matrix                       -1
+    Momentary                    No
+    Size                         64x64
+    Style                        Red
+    Top                          416
+    Type                         Button01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton2
+    Alias                        4Dbutton2
+    Height                       64
+    Left                         271
+    Matrix                       -1
+    Momentary                    No
+    Size                         64x64
+    Style                        Red
+    Top                          416
+    Type                         Button01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton3
+    Alias                        4Dbutton3
+    Height                       64
+    Left                         474
+    Matrix                       -1
+    Momentary                    No
+    Size                         64x64
+    Style                        Red
+    Top                          416
+    Type                         Button01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton4
+    Alias                        4Dbutton4
+    Height                       64
+    Left                         678
+    Matrix                       -1
+    Momentary                    No
+    Size                         64x64
+    Style                        Red
+    Top                          416
+    Type                         Button01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+4Dbutton
+    Name                         4Dbutton5
+    Alias                        4Dbutton5
+    Height                       64
+    Left                         736
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         64x64
+    Style                        Green
+    Top                          0
+    Type                         Button01
+    Width                        64
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext5
+    Alias                        Statictext5
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      'Please select profile to run\n(Choose from buttons below)'
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    18
+    Font.Style                   []
+    Height                       70
+    Left                         225
+    Top                          0
+    Transparent                  Yes
+    Width                        350
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext6
+    Alias                        Statictext6
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Machine
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    11
+    Font.Style                   []
+    Height                       17
+    Left                         738
+    Top                          68
+    Transparent                  Yes
+    Width                        61
+    WordWrap                     No
+end
+4Dbutton
+    Name                         4Dbutton6
+    Alias                        4Dbutton6
+    Height                       64
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         64x64
+    Style                        Red
+    Top                          0
+    Type                         Button01
+    Width                        64
+    OnChanged                    Form2Activate
+end
+StaticText
+    Name                         Statictext7
+    Alias                        Statictext7
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Home
+    Color                        BLACK
+    Font.Color                   BLACK
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    11
+    Font.Style                   []
+    Height                       17
+    Left                         11
+    Top                          68
+    Transparent                  Yes
+    Width                        42
+    WordWrap                     No
+end
+Image
+    Name                         Image5
+    Alias                        Image5
+    Height                       300
+    Image                        ADLT-removebg-preview.jpg
+    Left                         0
+    Source.Height                568
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 439
+    Top                          91
+    Width                        200
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Form
+    Name                         Form2
+    Alias                        Form2
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        'nologobetterline (1).png'
+    Source.Height                548
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 840
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton0
+    Alias                        Userbutton0
+    Height                       100
+    Images                       SC_logo-removebg-preview.png
+    Left                         122
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          15
+    Width                        100
+    OnChanged                    Form1Activate
+end
+StaticText
+    Name                         Statictext8
+    Alias                        Statictext8
+    Alignment                    Center
+    AutoSize                     Yes
+    Caption                      Start
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Arial Rounded MT Bold'
+    Font.Size                    11
+    Font.Style                   []
+    Height                       17
+    Left                         137
+    Top                          115
+    Transparent                  Yes
+    Width                        71
+    WordWrap                     No
+end
